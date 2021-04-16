@@ -1,2 +1,2 @@
 # portifolio
-Projeto de portfólio para o Estartando Devs
+projeto de portfólio para o Estartando Devs
