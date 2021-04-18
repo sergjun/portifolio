@@ -1,0 +1,28 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+
+header
+{
+
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+
+
+footer
+{
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: rgb(7, 5, 5);
+   
+}
