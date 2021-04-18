@@ -2,15 +2,21 @@
 {
     margin: 0px;
     padding: 0px;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Teko', sans-serif;
+    font-size: 1.5rem;
 }
 
-
+a
+{
+ text-decoration: none;
+ margin: 0px;
+ padding: 0px
+}
 
 header
 {
 
-    margin-top: 4rem;
+    
     margin-bottom: 4rem;
 
 }
@@ -24,5 +30,19 @@ footer
     padding-left: 50px;
     padding-top: 50px;
     background-color: rgb(7, 5, 5);
-   
+    color: white;
+    text-align: center;
+}
+
+
+body
+
+{
+    background-color: #333e62;
+}
+
+
+h1
+{
+    font-size: 2rem;
 }

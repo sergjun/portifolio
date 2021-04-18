@@ -1,8 +1,41 @@
 .main-header
 {
-    border: 2px solid black;
+    border: 3px solid white;
+    width: 55%;
+    margin:auto;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    
+}
+
+.main-about
+{
+    border: 3px solid white;
     width: 40%;
     margin:auto;
     padding: 2rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
     
 }
+
+.Sergio
+
+{
+    background-color: #333e62;
+    color: white;
+    
+}
+
+
+
+.tec1
+{
+    background-color: #333e62;
+    color: white;
+  
+}
+
