@@ -109,7 +109,7 @@
 
 
   @media     
-   (max-width: 900px) 
+  (max-width: 1100px)
 { 
 
     .main-cards
@@ -118,17 +118,85 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      
     } 
 
     .descript-align
     {
       width: 70%;
       text-align: center;
+      font-size: 0.5rem;
     }
 
     .social-medias
     {
       width: 50%;
     }
+
+    .img-project
+    {
+ 
+    }
+    
+    .project-name
+    {
+ 
+      
+    }
+
+    .descript-project h2 p
+    {
+      font-size: 0.5rem;
+    }
+
+}
+
+
+@media     
+(max-width: 720px)
+{ 
+
+  .main-cards
+  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  } 
+
+  .descript-align
+  {
+    width: 70%;
+    text-align: center;
+    
+  }
+
+  .social-medias
+  {
+    width: 50%;
+  }
+
+  .img-project
+  {
+    width:60%;
+  }
+  
+  .project-name
+  {
+    
+    font-size: 1rem;
+    
+  }
+
+  h2 
+  {
+    font-size: 1rem;
+  }
+
+  .tec1
+  {
+    font-size: 1rem;
+  }
 
 }
