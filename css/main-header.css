@@ -1,8 +1,12 @@
 .main-header
 {
     border: 3px solid white;
-    width: 55%;
-    margin:auto;
+    width: 40%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 2rem;
     background-color: black;
     color: white;
@@ -22,11 +26,23 @@
     
 }
 
+.main-header h1
+{
+    font-size: 3rem;
+}
+
+.main-header h2
+{
+    font-size: 2rem;
+}
+
+
 .Sergio
 
 {
     background-color: #333e62;
     color: white;
+    font-size: 2rem;
     
 }
 
@@ -36,6 +52,66 @@
 {
     background-color: #333e62;
     color: white;
+    border-radius: 2px;
   
 }
+
+
+.main-about .tec1
+{
+    background-color: #333e62;
+    color: white;
+    border-radius: unset;
+}
+
+
+
+@media     
+   (max-width: 900px) 
+{  
+    .main-header
+    {
+        width: 50%;
+    }
+   
+    .main-header h1
+    {
+        font-size: 2rem;
+    }
+
+    .main-header h2 
+    {
+        font-size: 1rem;
+    }
+ 
+    .Sergio
+    {
+        font-size: 1rem;
+    }
+
+
+    .main-about
+    {
+        width: 50%;
+    }
+
+    .main-about h1
+    {
+        font-size: 2rem;
+        
+    
+    }
+    
+    .main-about h2 p
+    {
+        font-size: 1rem;
+    }
+
+    .main-about .tec1
+    {
+        font-size: 1rem;
+    } 
+
+}
+
 

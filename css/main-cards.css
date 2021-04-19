@@ -47,7 +47,7 @@
 
   .img-align
   { 
-    border: 2px solid red;
+ 
     display: flex;
     position: relative;
     text-align: center;
@@ -58,7 +58,7 @@
   .descript-align
   {
     width: 30%;
-    border: 2px solid red;
+
     color: white;
     padding-top: 3rem;
  
@@ -83,6 +83,7 @@
     border-radius: 3px;
     padding-top: 50px;
     border-radius: 0.5rem;
+    margin-bottom: 2rem;
   }
 
 
@@ -104,3 +105,30 @@
   {
     transform:  scale(1.08);
   }
+
+
+
+  @media     
+   (max-width: 900px) 
+{ 
+
+    .main-cards
+    {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    } 
+
+    .descript-align
+    {
+      width: 70%;
+      text-align: center;
+    }
+
+    .social-medias
+    {
+      width: 50%;
+    }
+
+}

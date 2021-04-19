@@ -1,8 +1,7 @@
 .background
 {
-    border: 2px solid blue;
-    height: 10rem;
-    padding: 10rem;
+
+    display: flex;
     background-image: url(../img/background-portifolio.gif);
     background-size: 10rem;
     
