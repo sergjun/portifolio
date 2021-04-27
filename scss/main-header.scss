@@ -1,0 +1,121 @@
+$backfround-color: #333e62;
+$background-color-f: rgb(7, 5, 5);
+$font-color: white;
+
+.main-header
+{
+    border: 3px solid $font-color;
+    width: 40%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color: black;
+    color: $font-color;
+    border-radius: 0.5rem;
+    
+}
+
+.main-about
+{
+    border: 3px solid white;
+    width: 40%;
+    margin:auto;
+    padding: 2rem;
+    background-color: $background-color-f;
+    color: $font-color(255, 255, 255);
+    border-radius: 0.5rem;
+    
+}
+
+.main-header h1
+{
+    font-size: 3rem;
+}
+
+.main-header h2
+{
+    font-size: 2rem;
+}
+
+
+.Sergio
+
+{
+    background-color: $backfround-color;
+    color: $font-color;
+    font-size: 2rem;
+    
+}
+
+
+
+.tec1
+{
+    background-color: $backfround-color;
+    color: $font-color;
+    border-radius: 2px;
+  
+}
+
+
+.main-about .tec1
+{
+    background-color: $backfround-color;
+    color: $font-color;
+    border-radius: unset;
+}
+
+
+
+@media     
+   (max-width: 1100px) 
+{  
+    .main-header
+    {
+        width: 50%;
+    }
+   
+    .main-header h1
+    {
+        font-size: 2rem;
+    }
+
+    .main-header h2 
+    {
+        font-size: 1rem;
+    }
+ 
+    .Sergio
+    {
+        font-size: 1rem;
+    }
+
+
+    .main-about
+    {
+        width: 50%;
+    }
+
+    .main-about h1
+    {
+        font-size: 2rem;
+        
+    
+    }
+    
+    .main-about h2 p
+    {
+        font-size: 1rem;
+    }
+
+    .main-about .tec1
+    {
+        font-size: 1rem;
+    } 
+
+}
+
+

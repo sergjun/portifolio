@@ -1,0 +1,208 @@
+$backfround-color: #333e62;
+$background-color-f: rgb(7, 5, 5);
+$font-color: white;
+
+
+.main-cards {
+    background: rgba(77, 91, 136, 0.9);
+    border: solid 4px $background-color-f;
+    margin:auto;
+    width: 40%;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    margin-bottom: 7rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: transform 1s;
+  
+    
+ 
+  }
+
+  .main-cards:hover
+  {
+    transform:  scale(1.05);
+   
+  }
+
+  .img-project
+  {
+    border-radius: 0.5rem;
+
+  }
+
+  .project-name
+  {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 0.5rem;
+  }
+
+
+  .descript-project
+  {
+    color: $font-color;
+
+  }
+
+  .img-align
+  { 
+ 
+    display: flex;
+    position: relative;
+    text-align: center;
+
+  }
+
+
+  .descript-align
+  {
+    width: 30%;
+
+    color: $font-color;
+    padding-top: 3rem;
+ 
+ 
+   
+  }
+
+
+
+  .social-medias
+  {
+    background-color: rgba(77, 91, 136, 0.9);
+    border: solid 4px $background-color-f;
+    margin: auto;
+    width: 40%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 3px;
+    padding-top: 50px;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+
+ 
+
+
+  .icons
+
+  {
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+    transition: transform 1s;
+  }
+
+
+  .icons:hover
+
+  {
+    transform:  scale(1.08);
+  }
+
+
+
+  @media     
+  (max-width: 1100px)
+{ 
+
+    .main-cards
+    {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    } 
+
+    .descript-align
+    {
+      width: 70%;
+      text-align: center;
+      font-size: 0.5rem;
+    }
+
+    .social-medias
+    {
+      width: 50%;
+    }
+
+    .img-project
+    {
+ 
+    }
+    
+    .project-name
+    {
+ 
+      
+    }
+
+    .descript-project h2 p
+    {
+      font-size: 0.5rem;
+    }
+
+}
+
+
+@media     
+(max-width: 720px)
+{ 
+
+  .main-cards
+  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  } 
+
+  .descript-align
+  {
+    width: 70%;
+    text-align: center;
+    
+  }
+
+  .social-medias
+  {
+    width: 50%;
+  }
+
+  .img-project
+  {
+    width: 10rem;
+    
+  }
+  
+  .project-name
+  {
+    
+    font-size: 1rem;
+    
+  }
+
+  h2 
+  {
+    font-size: 1rem;
+  }
+
+  .tec1
+  {
+    font-size: 1rem;
+  }
+
+}

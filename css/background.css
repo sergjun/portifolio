@@ -1,11 +1,7 @@
-.background
-{
-
-    display: flex;
-    background-image: url(../img/background-portifolio.gif);
-    background-size: 10rem;
-    
-    
+.background {
+  display: flex;
+  background-image: url(../img/background-portifolio.gif);
+  background-size: 10rem;
 }
 
-
+/*# sourceMappingURL=background.css.map */
